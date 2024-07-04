@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color:#2d4b7a;
+    align-items: center;
+    padding: 10px 10px;
+    position:fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+.nav-section{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+   
+}
+.nav-item{
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.nav-item:hover {
+    background-color: #0d58b9;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer{
+    background-color: #eee;
+    padding: 1px;
+    text-align: center;
+
+}
+.form-container{
+    flex: 1;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+form {
+    margin-left:40px;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    background-color: #eee;
+    min-width: 170px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 30%;
+    margin-right: 10px;
+    color: #666;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d63529;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:1em;
+}
+
+button:hover {
+    background-color: #f10272;
+}
+
+
+/* Pembungkus Textarea*/
+.result-container{
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+/* untuk menampilkan hasil inputan form */
+.form-result>textarea{
+    height: 300px;
+    width: 94%;
+    border: 1px solid #b6b2b2;
+    border-radius: 8px;
+    font-size: 1em;
+    min-width: 170px;
+    padding: 20px;
+}

@@ -1,0 +1,1 @@
+export { default } from "file:///D:/tugas%20dan%20sbg%20nya/WEB/responsipwb/Responsi_PemrogramanWeb/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
